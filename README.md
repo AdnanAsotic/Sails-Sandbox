@@ -1,4 +1,2 @@
-Sails-Sandbox
-=============
-
-sandbox for sails development
+# test
+### a Sails application
