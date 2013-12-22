@@ -1,16 +1,16 @@
 /**
- * Users
+ * Language
  *
  * @module      :: Model
- * @description :: A short summary of how this model works and what it represents.
+ * @description :: Language Model
  * @docs		:: http://sailsjs.org/#!documentation/models
  */
 
 module.exports = {
 
   attributes: {
-  	email: "string",
-  	password: "string"
+  	lcid : "string",
+  	displayString : "string"
   }
 
 };

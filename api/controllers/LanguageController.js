@@ -1,5 +1,5 @@
 /**
- * UsersController
+ * LanguageController
  *
  * @module      :: Controller
  * @description	:: A set of functions called `actions`.
@@ -22,20 +22,9 @@ module.exports = {
 
   /**
    * Overrides for the settings in `config/controllers.js`
-   * (specific to UsersController)
+   * (specific to LanguageController)
    */
-  _config: {
-  	actions: true
+  _config: {}
 
-  },
-
-
-  // controller actions
-  index: function(req, res) {
-  	res.view();
-  },
-
-  edit: function(req, res) {
-  	res.view();
-  }
+  
 };
