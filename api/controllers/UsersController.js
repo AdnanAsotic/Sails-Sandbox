@@ -24,7 +24,18 @@ module.exports = {
    * Overrides for the settings in `config/controllers.js`
    * (specific to UsersController)
    */
-  _config: {}
+  _config: {
+  	actions: true
 
-  
+  },
+
+
+  // controller actions
+  index: function(req, res) {
+  	res.view();
+  },
+
+  edit: function(req, res) {
+  	res.view();
+  }
 };
